@@ -178,7 +178,7 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 BOARD_CHARGER_RES := $(LOCAL_PATH)/res/charger
 
 # EMMC brickbug is removed in the kernel, but be better safe than sorry.
-BOARD_SUPPRESS_EMMC_WIPE := true
+BOARD_SUPPRESS_EMMC_WIPE := false
 
 # Recovery
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/init.recovery.n1.rc
